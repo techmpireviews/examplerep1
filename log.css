@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	background-image: url('images/wood.jpg');
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+#form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	border: solid 2px;
+	border-radius: 25px;
+	border-color: #000000;
+	width: 385px;
+	height: 205px;
+	background-color: #ffffff;
+	margin-top: 40px;
+	z-index: -1;
+}
+
+.searchinput {
+	margin-top: 3px;
+	width: 250px;
+	height: 23px;
+	border-radius: 15px;
+	border: solid 1.5px;
+	border-color: #000000;
+	padding-left: 8px;
+	transition: 0.3s ease-in-out;
+}
+
+.searchinput:hover {
+	background-color: #f2f2f2;
+}
+
+#formdiv {
+	margin-top: 10px;
+}
+
+.reg {
+	width: 115px;
+	height: 30px;
+	margin-top: 12px;
+	background-color: #ffffff;
+	border: solid 1px;
+	font-size: 18px;
+	border-radius: 15px;
+	border-color: #000000;
+	transition: 0.25s ease-in-out;
+}
+
+.reg:hover {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+button, input:focus {
+	outline: none;
+}
+
+#sp {
+	position: fixed;
+	top: -140px;
+	right: -140px;
+	width: 420px;
+	height: auto;
+	z-index: -5;
+}
+
+#egg {
+	position: fixed;
+	bottom: -160px;
+	left: -130px;
+	width: 420px;
+	-webkit-transform: rotate(20deg);
+	height: auto;
+	z-index: -5;
+}
+
+label {
+	position: relative;
+	top: 3px;
+	font-size: 21px;
+	font-weight: 700;
+	font-family: sans-serif;
+}
